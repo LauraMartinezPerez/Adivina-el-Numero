@@ -19,18 +19,18 @@ let attemptsNumber = 0
         if (numberValue < 1 || numberValue > 100) {
             clue.innerHTML = "🤯 Fuera de órbita… elige un número válido entre 1 y 100.";
         } else if (isNaN(numberValue)) {
-            clue.innerHTML = "🤖 Eso no parece un número.Eh… pon números, no jeroglíficos";
+            clue.innerHTML = "🤖 Eso no parece un número. Eh… pon números, no jeroglíficos.";
         } else if (numberValue > randomNumber) {
             clue.innerHTML = "📉 Demasiado alto, prueba más bajo.";
         } else if (numberValue < randomNumber) {
             clue.innerHTML = "📈 Demasiado bajo, prueba más alto.";
         } else if (numberValue === randomNumber) {
-            clue.innerHTML = "🏆 ¡Victoria épica! Ese era el número";
+            clue.innerHTML = "🏆 ¡Victoria épica! Ese era el número.";
         }  
     }
 
     const renderAttempts = () => {
-        attempts.innerHTML = `Número de intentos ${attemptsNumber+=1}`
+        attempts.innerHTML = `${attemptsNumber+=1}`
     }
 
 const handleClick = (ev) => {

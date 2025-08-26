@@ -39,5 +39,11 @@ const handleClick = (ev) => {
     renderAttempts();
 }
 
+const handleEnter = (ev) => {
+    if (ev.key === "Enter") {
+        handleClick(ev);
+    }
+}
 
 button.addEventListener("click", handleClick);
+numberInput.addEventListener("keydown", handleEnter);

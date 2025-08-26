@@ -5,7 +5,7 @@
 ## 🧩 Cómo jugar
 
 1. Ingresa un número entre 1 y 100.
-2. Haz clic en "Prueba" para comprobar si acertaste.
+2. Haz clic en el botón para comprobar si acertaste.
 3. Recibirás pistas indicando si el número es mayor o menor que tu intento.
 4. El juego continúa hasta que adivines el número correcto.
 5. Para jugar de nuevo, recarga la página.

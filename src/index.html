@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/main.scss">
+</head>
+<body>
+
+    <header >
+        <h1 class="title">Adivina el número</h1>
+    </header>
+
+    <main class="container">
+        <form class="form" action="">
+            <label class="form__subtitle">Introduce aquí tu número</label>
+            <input class="form__input js-input" type="text" id="number" placeholder="número">
+            <button class="form__btn js-btn" type="submit">Adivinar</button>
+        </form>
+        <p class="container__clue js-clue">Pista:<span></span> Escribe el número y dale a "Adivinar"</p>
+        <p class="container__attempts js-attempts">Número de intentos: 0</p>
+    </main>
+    
+<script src="js/main.js"></script>    
+</body>
+</html>

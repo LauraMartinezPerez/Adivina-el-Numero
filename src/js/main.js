@@ -21,11 +21,11 @@ let attemptsNumber = 0
         } else if (isNaN(numberValue)) {
             clue.innerHTML = "🤖 Eso no parece un número. Eh… pon números, no jeroglíficos.";
         } else if (numberValue > randomNumber) {
-            clue.innerHTML = "📉 Demasiado alto, prueba más bajo.";
+            clue.innerHTML = "📉 Demasiado alto, ajusta tu propulsor.";
         } else if (numberValue < randomNumber) {
-            clue.innerHTML = "📈 Demasiado bajo, prueba más alto.";
+            clue.innerHTML = "📈 Demasiado bajo, acelera tu nave.";
         } else if (numberValue === randomNumber) {
-            clue.innerHTML = "🏆 ¡Victoria épica! Ese era el número.";
+            clue.innerHTML = "🏆 ¡Victoria épica! Has encontrado el número secreto del cosmos.";
         }  
     }
 
